@@ -1,0 +1,72 @@
+.contact{
+  background-image: url("https://bit.ly/2VK9AeK");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 30px;
+}
+.contact h1{
+  font-size: 60px;
+  text-decoration-line: underline;
+}
+.contact h2{
+  font-size: 40px;
+  color: white;
+}
+input{
+  margin-right: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+::placeholder{
+  color: white;
+}
+select{
+  margin-right: 10px;
+}
+button{
+  border-color: transparent;
+}
+.summary{
+  display: none;
+  text-align: center;
+  background-image: url("https://bit.ly/39j5FK3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'PT Sans Caption', sans-serif;
+  height: 637px;
+  color: white;
+  font-size: 40px;
+}
+.summary h2{
+  color: white;
+  text-decoration-line: underline;
+  font-size: 80px;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:palevioletred;
+  font-size: x-large;
+  position: fixed;
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ddd;
+}

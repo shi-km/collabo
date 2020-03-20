@@ -1,0 +1,72 @@
+*{
+  overflow-x: hidden;
+
+}
+h1{
+  text-align: center;
+  color: black;
+}
+body{
+  font-family: 'Playfair Display' serif;
+  color: black;
+ background-image: url("https://bit.ly/32PZFpS"); 
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 800px;
+}
+.work h1{
+  text-align: center;
+  color: black;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+#tattoo-show{
+  display: none;
+}
+#weave-show{
+  display: none;
+}
+#color-show{
+  display: none;
+}
+#pedi-show{
+  display: none;
+}
+#tattoo-show{
+  display: none;
+}
+#haircut-show{
+  display: none;
+}
+#bridal-show{
+  display: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:palevioletred;
+  font-size: x-large;
+  /* position: fixed; */
+  width: 100%;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ddd;
+}
+.tat_img{
+  border-radius: 10px;
+}

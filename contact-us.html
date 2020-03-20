@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./css/bootstrap.css" media="all">
+  <link rel="stylesheet" href="./css/contact-us.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+  <title>CONTACT US</title>
+</head>
+<body>
+  <div class="contact" id="contact">
+    <div class="container-fluid" >
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">Our Work</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="feed.html">Feedback</a></li>
+      </ul>
+    </div><br><br>
+    <h1>CONTACT US</h1>
+    <h2>Book An Appointment Below</h2><br>
+    <form>
+      <table>
+        <label>Name_</label>
+        <input type="text" placeholder=" Enter your name here..." id="name">
+        <label>Email_</label>
+        <input type="email" placeholder=" Enter your email here..." id="email"> 
+      </table><br>
+      <table>
+        <label>Type of Service_</label>
+        <select name="service" id="service">
+          <option value="haircut">Haircuts</option>
+          <option value="tattoo">Tattoos</option>
+          <option value="bridal styling">Bridal Styling</option>
+          <option value="braiding and weaving">Braiding and Weaving</option>
+          <option value="manicure/pedicure">Manicure/Pedicure</option>
+          <option value="hair color">Hair Color</option>
+        </select>
+        <label>Enter the date_</label>
+        <input type="date" id="date">
+      </table><br>
+      <label>Enter the time:</label>
+      <input type="time" id="time"><br><br>
+      <button type="button" onclick="order()" style="background-color: transparent; color: white;" class="book">Book Now!</button>
+    </form>
+  </div>
+  <div class="summary" id="summary"><br>
+    <h2>Summary of your Appointment</h2>
+    <p id="x"></p>
+    <p id="y"></p>
+    <p id="z"></p>
+    <p id="ad"></p>
+    <button class="book" style="background: transparent; color: white;">OK</button>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="./js/contact-us.js"></script>
+</body>
+</html>

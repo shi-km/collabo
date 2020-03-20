@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/feed.css">
+</head>
+<body>
+
+
+    <div class="container-fluid" >
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li><a href="feed.html">Feedback</a></li>
+        </ul>
+    </div>
+    <div class="feedback">
+    <h1>Your Feedback.</h1>
+    <form >
+        <div class="form">
+            <input id="name" class="flex" type="text" placeholder="Name.." required>
+
+            <input type="text" id="email" class="flex" placeholder="Email" required>
+        </div>
+        <div class="text">
+            <input id="msg" class="flex" type="text" placeholder="Your message here..." required>
+
+        </div>
+        <div id="btn">
+            <button type="submit" onclick="myFunction()" id="submit" class="btn btn-success" preventDefault();>Submit</button>
+        </div>
+    </form>
+    <script src="./js/feed.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"4d3e62b75a87b506853bfbafd","lid":"4e6b16d693","uniqueMethods":true}) })</script>
+</div>
+
+
+</body>
+</html>
